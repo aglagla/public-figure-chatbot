@@ -40,8 +40,11 @@ The chatbot uses RAG (retrieval-augmented generation) over your transcripts/book
 ## Documentation
 
 [Architecture Overview](doc/architecture_overview.md)
+
 [Design Patterns](doc/design_patterns.md)
+
 [Deployment](doc/deployment.md)
+
 [Frontend UX](doc/frontend_ux.md)
 
 
