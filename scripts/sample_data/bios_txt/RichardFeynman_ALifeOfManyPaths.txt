@@ -1,0 +1,831 @@
+Richard Feynman 
+A Life of Many Paths 
+
+Dennis Silverman 
+Department of Physics and Astronomy 
+UC Irvine 
+Osher Lifelong Learning Institute, UC Irvine, April 
+6,2012 
+
+The Young Feynman 
+
+• Richard (Dick) Feynman was born May 11, 1918 in Far 
+
+Rockaway, Queens, NY. 
+
+• His parents were Jewish and from Russia and Poland. 
+• As a child he was taught by his father to take independent 
+
+viewpoints on things. 
+
+• He repaired radios as a youth, as he could figure out what was 
+
+wrong with them. 
+
+• He learned calculus at 15. 
+• As a senior in high school, he won the NYU Math Challenge. 
+
+Feynman’s Education and the Manhattan Project 
+• He was an undergraduate at MIT and graduated in 1939. 
+• He was a graduate student of John Wheeler’s at Princeton, 
+
+where he already did advanced work on Quantum 
+Electrodynamics (QED), and received his Ph.D. in 1942. 
+• His physics prowess was becoming well known, and he was 
+brought to the Manhattan Project at Los Alamos to work 
+with Hans Bethe. 
+
+• There he became head of computing, and developed 
+
+important codes and oversaw their parallel computing farm 
+of ladies on calculators. 
+
+Dick and Arline 
+• He married his high school sweetheart 
+
+Arline Greenbaum when he received his 
+Ph.D., although she was seriously ill 
+with tuberculosis. 
+
+• She was very artistic and musical. 
+• He brought Arline to a hospital in Santa 
+Fe and would visit her on weekends. 
+She died in 1945. 
+
+• This period was portrayed in the movie 
+“Infinity” in 1996, starring and directed 
+by Matthew Broderick. 
+
+Niels Bohr, Oppenheimer, Feynman, Enrico Fermi 
+
+Quantum Man by Lawrence M. Krauss 
+
+Larry Krauss 
+
+Feynman 
+
+Feynman and Path Integrals 
+
+•
+
+I read Quantum Man by Lawrence Krauss for the story of the 
+physics that Feynman developed and worked on. 
+
+• After the war, Feynman was recruited by many universities 
+and decided to go to Cornell to work with Hans Bethe. 
+• There he developed his new Path Integral formulation of 
+
+Quantum Mechanics. 
+
+• Feynman didn’t really use this to rigorously develop his 
+
+diagrams or rules, so we put that in an appendix. 
+
+• We do teach the Path Integral formulation in graduate courses 
+
+to show students how Feynman rules can be derived, 
+however. 
+
+Light as Waves and Particles Called Photons 
+
+• The connection of particle and wave properties of light was 
+
+discovered by Max Planck. 
+
+• He connected the energy E of the particles of light, called 
+
+photons, with the frequency of their wave oscillations, 𝜈, by 
+
+ E = ℎ 𝜈 where ℎ is called Planck’s constant. 
+• This is also the relation used by Einstein in explaining the 
+photoelectric effect, where single electrons are ejected 
+from a solid when light hits it. 
+
+The Scale of Quantum Mechanics 
+
+• We will use a more convenient quantity “hbar”, where 
+ ℏ = ℎ / (2 𝜋). 
+• Since ℏ usually occurs multiplied by the speed of light c, we 
+
+show their combined values in useful units: 
+
+ ℏ c = 0.2 GeV fm = 2 keV A⁰. 
+• A Fermi, fm is about the size of a proton, and a GeV (billion 
+
+electron Volts) is about the mass of the proton. 
+
+• An Angstrom A⁰ is about the size of an atom, and a keV is a 
+
+scale for energy levels of electrons in heavy atoms. 
+
+Relativity and Quantum Mechanics 
+• The first great discoveries of combining relativity and QM was 
+found by P. A. M. Dirac, which in his Dirac equation discovered 
+both antiparticles, and that electrons had spin 1/2, in units of 
+ℏ. 
+
+• Previous QM work showed that orbital angular momentum in 
+atoms had only integer values, 0,1,2,3, etc. in units of ℏ, that 
+classified atomic levels. 
+
+• The spin ½ electron, means that no two electrons can occupy 
+the same state, and leads to the shell model of atoms, the 
+periodic table, chemistry, and eventually, life. 
+
+• This is called the Pauli Exclusion Principle. 
+
+Paul Dirac and Antiparticles with Negative Energy 
+
+Paul Dirac 
+
+The Relativistic Energy Momentum 
+Relation is: 
+E² = (mc²)² + p²c². 
+Note, at rest, the momentum p=0, 
+and therefore, 
+E= ±mc². The negative energy 
+solutions are those for antiparticles, 
+since they also have the opposite 
+charge from the positive energy 
+solutions. 
+
+Feynman Diagrams 
+
+• Feynman formulated the quantum theory of interacting 
+electrons and electromagnetic fields called Quantum 
+Electrodynamics in his path integral approach. 
+
+• The electromagnetic fields could act as particles in the 
+
+photoelectric effect, as explained by Einstein. These are 
+called photons. 
+
+• By working many examples of processes, Feynman realized a 
+great simplicity: that he could formulate a set of rules for 
+writing the results without deriving each one. 
+
+• This opened up the ability to calculate to everybody. 
+• Feynman also drew diagrams that showed physically how the 
+
+processes occurred. 
+
+• This has been applied to all of the new theories of current and 
+
+proposed new particles and interactions. 
+
+Feynman Diagrams for QED 
+
+•The lowest order diagram in the strength of 
+the interaction, which is the electron charge 
+“e”. For exchange of a photon, each 
+connection is given by e, and the product is 
+scaled to the dimensionless constant 
+ α = e²/ℏc = 1/137.036 
+ which is called the fine structure constant. 
+•The processes in QED are an expansion in 
+powers of α with an extra exchanged photon 
+for each additional order or power of alpha. 
+
+First and Second Order 
+QED Feynman Diagrams 
+for electron-electron scattering. 
+
+Second order diagrams have 
+two photons exchanged. 
+
+Feynman Rules for QED 
+• Feynman’s rules give a free particle solution to the Dirac equation 
+for each incoming and outgoing free electron, and a solution to 
+Maxwell’s equations for each free photon. 
+
+• At each vertex of an electron with a photon is a photon source J, 
+
+called an interaction. 
+
+• Feynman propagator functions connect each exchanged photon to 
+
+its current source and absorption vertexes, and each electron 
+between photon. 
+
+• There is also a “Dirac delta function” that guarantees that energy 
+
+and momentum are conserved exactly at each vertex. 
+
+• Because of that, energy and momentum are conserved for each 
+
+diagram from start to finish. 
+
+• The oft made statement that energy can fluctuate in a process 
+should really be that the intermediate particles are virtual, and 
+don’t have the right connection of energy and momentum to 
+escape as free particles. 
+
+Freeman Dyson, Julian Schwinger, and Sin-Itiro Tomonaga 
+
+Freeman Dyson showed in 1948 that Feynman’s diagrams 
+and rules for calculation were the same as the Field Theory 
+approaches of Julian Schwinger and Sin-Itiro Tomonaga. 
+
+Antiparticles as Negative Energy Solutions 
+
+•
+
+In these rules, Feynman interpreted the negative energy solutions 
+as particles moving backwards in time. 
+
+• This got rid of the earlier interpretation where antiparticles were 
+
+•
+
+holes in a filled sea of negative energy particles that permeated all 
+of space-time, the so-called Dirac sea. 
+In propagation of photons between the source electron and the 
+absorbing electron, both time orderings of emission and absorption 
+could be included relativistically, in a “propagator” function that 
+was developed in Feynman’s thesis with John Wheeler. 
+• These had also been developed independently by E. C. G 
+
+Stueckelberg, but not exploited as Feynman did. 
+
+• Feynman Video “Go Somewhere Else” 
+• Hans Bethe on Feynman and Schwinger 
+
+Feynman Moves to CalTech 
+
+In 1950, Feynman was offered a position at CalTech. 
+
+•
+• Before going there he took a half year off to relax in Rio in 
+
+Brazil, where he taught Physics and learned to play the bongo 
+drums. 
+
+• From 1952 to 56 he was married to Mary Louise Bell, but that 
+did not turn out to be a good match, since he worked all of 
+the time. 
+
+• After that, on a trip to Switzerland, he met the British 
+
+Gweneth Howard, and hired her as an au pair. 
+
+• He married her in 1960, and they had a son Carl and an 
+
+adopted daughter, Michelle. 
+
+Feynman’s Van and Family 
+
+Superfluid Helium, Superconductivity and Weak 
+Interactions 
+
+• Besides particle physics, Feynman worked on Superfluid 
+
+Helium. He treated it as a “Bose-Einstein” condensate, in 
+which all He atoms of zero angular momentum could be in 
+the same state and act alike at low temperatures as free 
+particles. 
+
+• He also worked on Superconductivity, where he discovered 
+
+and worked on vortices as the excitations in the 
+superconductor. 
+
+• With Murray Gell-Mann at CalTech, he formulated the 
+
+theory for the weak interactions, which was like QED, but 
+including another current that violated parity maximally, 
+called the “V-A” theory. It used only left spinning electrons, 
+and right spinning positrons. 
+
+Feynman and Nanotechnology 
+
+•In 1959 Feynman gave a lecture 
+speculating on manipulation and 
+building machines on the atomic or 
+molecular scale, which is now known 
+as nanotechnology. 
+•The title of the talk was “There’s 
+Plenty of Room at the Bottom”. 
+•Today we can see and move individual 
+atoms with atomic force microscopes. 
+•He also covered microscopic data 
+storage, microscopic motors, and 
+quantum engineering. 
+
+The Feynman Lectures 
+
+• By 1961, Feynman got very interesting in teaching, and 
+
+presenting his own unique outlook on basic physics subjects. 
+
+• He taught Freshman and then Sophomore physics, and his 
+notes were compiled by Robert B. Leighton and Matthew 
+Sands 
+
+• The lectures were not only complete, but added analyses of 
+many phenomena in a simple, Feynman way. You can almost 
+hear Feynman speaking in the syntax used. 
+
+The Feynman Lectures 
+
+• The lectures were published as the Feynman Lectures in 
+
+Physics in three red volumes (list copied from Wikipedia): 
+
+• Volume 1: Mechanics, radiation and heat. 
+• Volume 2: Electromagnetism and matter. 
+• Volume 3: Quantum mechanics. 
+• Abbreviated editions: 
+
+– Six Easy Pieces (1994) 
+– Six Not-So Easy Pieces (1998) 
+– The Very Best of the Feynman Lectures (Audio, 2005) 
+
+“The Character of Physical Law” Messenger Lectures 
+
+•
+
+•
+
+In 1964 he went to Cornell to give seven Messenger lectures, which were 
+recorded on film. They are titled “The Character of Physical Law”. 
+In 2009, Bill Gates obtained the rights to these and put them on the web 
+for free as “Project Tuva”. They can be viewed on Windows with special 
+software including notes. The lectures are titled (copied from Wikipedia): 
+
+• The law of gravitation, an example of physical law 
+• The relation of mathematics to physics 
+• The great conservation principles 
+• Symmetry in physical law 
+• The distinction of past and future 
+• Probability and uncertainty - the quantum mechanical view of 
+
+nature 
+
+• Seeking new laws 
+• Start of Feynman Lecture on Quantum Mechanics 
+
+Feynman Lectures on Gravitation 
+In 1962 to 1963, Feynman turned to Gravity, which had only 
+been dealt with classically before. 
+
+•
+
+• He quantized gravity, with the graviton being the quantum of 
+
+the gravitational field radiation. 
+
+• He laid out the Feynman rules for gravity and did the second 
+
+order calculation, discovering the bad infinities, that have only 
+been dealt with now with supersymmetric string theory. 
+• He also realized the possibility of a zero net energy universe, 
+which is now part of the inflation model of the start of the 
+universe. 
+
+• His lectures at CalTech on this were not published as a book 
+
+until 1995. 
+
+1965 Nobel Prize in 
+Physics 
+In 1965 the Nobel Prize in 
+Physics was awarded for 
+the development of QED to 
+Feynman, Schwinger, and 
+Tomonaga. 
+Feynman’s speech on the 
+history of his development 
+of the theory is on the 
+Nobel website. 
+
+Feynman’s House in La Mision, Baja, From the Nobel Prize 
+
+Feynman takes up Drawing 
+
+•Around 1962 Feynman took up 
+art to express the deep emotions 
+that he felt about nature. 
+•His drawings can be seen on the 
+www.museumsyndicate.com 
+website. 
+•He used the pseudonym Ofey 
+after the French “au Fait”, 
+meaning “it is done”. 
+•This one is called “Equations 
+and Sketches”. 
+
+Feynman Drawing 
+
+Feynman Playing Bongo Drums with Ralph Leighton 
+
+•
+
+Feynman and Computing – Stephen Wolfram 
+From 1981-85 Feynman worked on questions of computer simulation, 
+parallel processor computation, pattern recognition, and computability of 
+physics problems. 
+
+• He also wrote about quantum element computation. 
+• He worked on cellular automata or schemes of cellular nodes evolving in 
+
+time with certain rules. 
+
+• He helped inspire Stephen Wolfram to program a computer to do algebra, 
+
+•
+
+which became the Mathematica software and company. 
+This has expanded to the all data app called “Wolfram alpha” on iPhones, 
+and a principal source for Siri. 
+
+The Stanford Linear Accelerator Center (SLAC) 
+that scattered electrons off of protons at high energy. 
+The two mile linear electron 
+accelerator 
+
+Magnets and detectors for the 
+scattered electrons 
+
+Frozen Pancakes and Partons 
+
+• SLAC was scattering electrons off of 
+protons at high energy, or short 
+wavelength, of the virtual photons 
+given off by the deflected electrons. 
+
+• Feynman realized that passing a 
+
+proton at high speed meant that the 
+proton would Lorentz contract and 
+look like a pancake. 
+
+• Also, clocks in the proton would 
+
+appear to slow down, called time 
+dilation, so the constituents of the 
+proton, called partons, would appear 
+to not be interacting, and would act 
+as free particles, frozen in place. 
+
+Scattering of Electrons by Partons via Photons 
+
+e 
+
+e 
+
+q virtual photon 
+
+q + x P 
+
+partons 
+
+x P 
+
+P proton 
+
+•
+
+ The process would essentially 
+take an instantaneous picture of 
+the proton at high resolution, 
+with the constituents frozen. 
+• The momentum of the partons 
+was along the same direction as 
+the proton, but with a fraction 
+of the total momentum called x 
+• Pparton = x Pproton, where x runs 
+
+from 0 to 1. 
+
+Partons as Quarks 
+
+•
+
+ Since the scattering was due to 
+photons, the amount of scattering or 
+effective “cross section” of the proton 
+for scattering, would be due to the 
+square of the charge of each parton. 
+• The fractional (+2/3 e) charge for an up 
+quark parton, and (-1/3 e) for a down 
+quark parton, was then revealed, and 
+the partons could be identified as GellMann and Zweig’s quarks. 
+• Rather than just a mathematical 
+
+underpinning of particle symmetries, 
+the quarks were real particles! 
+
+Parton Distribution Functions 
+
+• Up and down quarks in the 
+
+proton forming its core are called 
+valence partons (uud), and have 
+the parton x distributions u and d 
+in the figure (multiplied by x). 
+• Virtual gluons can also create 
+pairs of u, d, and s quarks and 
+antiquarks, forming a sea of 
+quarks, with a distributions 
+labeled by u and d with bars, and 
+s. 
+
+• Gluons frozen in the picture of 
+
+scattering have the distribution g, 
+which show up in strong 
+interaction scattering. 
+
+SLAC Nobel Prize in 1990 for Proton Structure by 
+Richard Taylor, Jerome Friedman, and Henry Kendall 
+
+Other Discoveries of Free Particle Scattering 
+
+• The effective results of the free parton scattering 
+were previously inferred through an abstract 
+Current Algebra approach by James Bjorken at SLAC 
+before the results came in. So it is called FeynmanBjorken scaling. 
+
+• Feynman’s genius of simplicity was to see that the 
+scattering was due to a free parton, and that the 
+value for x could be derived from the scattering 
+energy and momentum in a few lines. 
+
+• The parton distribution functions are also used in 
+proton-proton scattering, and in all high energy 
+processes. 
+
+Personally Relevant SLAC Pictures 
+
+SLAC Theory conference room 
+that also used to be my office as 
+a graduate student 
+
+UCI Physics Ph.D. Jonathan 
+Dorfan, who became director of 
+SLAC 
+
+My Thesis Advisor Sid Drell, and Former Lab Director 
+and Nobel Laureate Burton Richter (1976). The text 
+by Bjorken and Drell became the standard text for 
+Feynman Diagrams and the Rules of QED. 
+As a grad student, you worked hard or else. 
+
+Feynman Diagrams Today 
+
+Higgs from gluon fusion 
+
+• Today, Feynman Diagrams are 
+
+used for Weak, Electromagnetic 
+and Strong interactions at high 
+energy. 
+ They can be calculated to high 
+order using formulas based on the 
+preceding order. 
+
+•
+
+• They are now generated by 
+computer and calculated by 
+computer. 
+
+• Monte Carlo programs are written 
+
+for various experiments that 
+calculate the number of events 
+that are expected in an 
+experiment from the diagrams. 
+
+Automated Theory to Experiment via Feynman Diagrams 
+
+The Challenger Space Shuttle Rogers Commission 
+
+•
+
+In January 18, 1986 the space shuttle Challenger exploded 
+while in the booster rocket phase, and Feynman was 
+appointed to the Rogers Commission to examine the cause 
+and increase the safety of the space shuttle. 
+
+• The solid booster rocket was actually put together from 
+
+several pieces, sealed by two O rings around the 
+circumference. 
+
+• Engineers had pointed out problems with this to 
+
+management, but they delayed in instituting fixes. 
+
+Feynman’s Demonstration 
+
+• But the day of the launch the 
+
+•
+
+temperature was as low as 8⁰ F. 
+In the Congressional hearing in 
+February, Feynman rustled together a 
+small O ring and ice to show how it 
+would freeze and not expand to seal 
+the joints. 
+
+• Feynman accepted this responsibility 
+even though he was already very ill 
+with cancer. 
+
+Feynman’s Report on Safety and Management 
+
+• The joints also were pulled apart by twisting 
+and expansion of the booster segments. 
+• This caused the escaping flame to burn the 
+
+lower booster attachment, open a hole to the 
+hydrogen tank in the external fuel tank, and 
+the booster to detach, resulting in disaster. 
+
+• Feynman also wrote an appendix F to the 
+report where he discussed problems with 
+estimating safety levels and examined the 
+safety of all of the systems of the shuttle. 
+• He also pointed out that management was 
+
+always increasing the safety levels 
+determined by engineers by factors of a 
+hundred or a thousand. 
+
+How Feynman Viewed Physics: 
+as a lot of interconnected subjects that affected each 
+other. 
+
+Feynman’s Departure and Legacy 
+
+In 1987 he had a recurrence and another rare cancer. 
+
+• Feynman contracted a rare cancer in 1979. 
+•
+• Despite this he kept working out of interest. 
+• He died in on Feb. 15, 1988 at the age of 69. 
+• Feynman on Science and Living With Uncertainty 
+•
+
+It is clear that Feynman inspired a spirit of independent 
+thinking in all fields, and a spirit of striving for and finding the 
+simplest ways of understanding and explaining science. 
+
+Feynman Web Sources 
+
+• Googling Feynman will turn up many sites devoted to 
+
+him as well as Wikipedia articles and the Wikiquotes site. 
+
+• There are also interviews with him on YouTube. 
+• We already mentioned the Messenger lectures on the 
+
+Tuva Project site. 
+
+• On TED there are lectures from a conference from people 
+
+who knew Feynman. 
+
+• CalTech Photo Archives has 277 pictures of Feynman (pay 
+
+for use) 
+
+• Also on the site where Gell-Mann has 200 short 
+
+biographical segments, there are comments on Feynman 
+as well. 
+
+Books by and about Feynman 
+
+• There are many books that he wrote and that were written 
+
+about him that are shown on the next slides. Feynman was a 
+great story teller. 
+
+• Alan Alda studied Feynman and gave a play “QED” in 2001. 
+•
+•
+
+In 2005 there was an opera called “Feynman”. 
+In 2005 there was also a Feynman stamp, above. 
+
+BOOKS BY FEYNMAN 
+
+BOOKS ABOUT FEYNMAN 
+
+My Feynman Stories 
+
+• Feynman at Hughes 
+• Feynman and safes at Los Alamos 
+• Feynman at Aspen 
+• Dick O’Fey’s talks to UCI undergrads 
+• Feynman, Drell, Gell-Mann 
+• Talk on scheme of physics 
+• Negative Probabilities 
+
+Technical Appendices 
+
+Technical Appendix: The Action in Physics 
+
+• Difficult classical physics problems are solved by minimizing the 
+
+“action” S which is defined as the sum (integral) over time, over a 
+path, of the kinetic energy (K.E.) minus the potential energy (P.E.): 
+
+ S = ⅀ ( K.E. ‒ P.E.) ∆t 
+• Traveling on a level surface with no P.E., for a car, say, 
+ S = K.E. · time 
+• So the principal of least action for a drive means minimizing the 
+
+time it takes, something we intuitively do all the time. 
+
+• For QED, the action S includes includes the interaction of the 
+
+electron current eJ with the electromagnetic field A: 
+
+ eJ·A, where e is the charge of the electron. 
+
+Technical Appendix: The Sum over Paths, or Path Integral 
+
+•
+
+In Quantum Mechanics, a particle is also a wave, which travels over 
+many paths. 
+
+• Feynman looked at QM by summing over all possible paths that a 
+particle could take, allowing wavelike interference by using as a 
+phase the action S/ℏ on that path, in B. For those paths for which S 
+is very near its minimum, they all have almost the same value of S, 
+and they interfere constructively, thereby giving the classical path, 
+and explaining the classical Principle of Least Action, which is 
+equivalent to Newton’s Law, but used for complex problems. 
+
+Classical Path 
+
+Quantum Paths 
+
+The Generation of Feynman Graphs in QED 
+
+• The action enters in an exponential function as a phase: 
+ exp( i S / ℏ ). 
+• When the exp function is expanded it is a series in all 
+
+powers in S, or all powers of the interaction vertex eJ·A. 
+
+• Thus all orders of photon exchange are included. 
+• Since each photon exchange has two currents, one at each 
+end, it is a series in order of e² or α = e²/ℏc. Since α is 
+small it is called a perturbation series, and only a few terms 
+are usually needed. 
+
+• A produced photon would have just one current eJ·A, and A 
+
+would be the photon’s outgoing wave function. 
+
+Technical Appendix: Removing the infinities 
+
+• The higher order diagrams in QED had mild infinities. 
+• Feynman first formulated a high energy cutoff, that could be 
+
+due to unknown physics at very short distances. 
+
+• He then showed that some infinities could be cancelled, and 
+others absorbed by replacing the bare or input masses and 
+charges by their physical values. 
+
+• He published this in 1949. 
+• His colleague and friend Freeman Dyson showed that this 
+
+could work to all orders. 
+
+Technical Appendix: Parton Math and Scaling 
+• With the proton having momentum p, the parton having momentum xp, 
+and the photon having momentum q, the scattered parton has final 
+momentum (xp + q). 
+The condition that it be a free particle is (q + x p)² =m². 
+
+•
+• Multiplying this out we have q² + 2 x p⋅q + x² p² =m² 
+• Now p⋅q = m𝜈 = m (E-E’) (in the lab frame), where E is the incoming 
+
+electron energy, and E’ is the outgoing electron energy. 
+
+ q² + 2xp⋅q = 0, or: q² + 2xm𝜈 = 0. 
+therefore, x = -q² /(2mν) , the Bjorken or Feynman x! 
+
+• At large q² and ν we ignore p² and m², giving 
+•
+•
+• With k the incoming electron momentum, and k’ the outgoing electron’s , 
+• q² = (k – k’)² = -2k·k’ = -2 E E’ (1‒ cos 𝜃) where 𝜃 is the electron 
+
+•
+
+scattering angle. 
+Experiments summing over all hadron final states of the same x should 
+have the same result, even for different values of q² and 𝜈, as long as they 
+give the same ratio x. 
+
+• This is called Feynman-Bjorken scaling.

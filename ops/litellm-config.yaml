@@ -1,0 +1,6 @@
+model_list:
+  - model_name: qwen2.5-3b-instruct
+    litellm_params:
+      model: "ollama/qwen2.5:3b-instruct"
+      api_base: "http://ollama:11434"
+      api_key: "na"

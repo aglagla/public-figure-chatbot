@@ -1,0 +1,173 @@
+version: "3.9"
+
+networks:
+  appnet:
+
+volumes:
+  dbdata:
+
+services:
+  # =========================
+  # Database (pgvector)
+  # =========================
+  db:
+    image: ankane/pgvector:latest
+    container_name: pfchat_db
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: chatbot
+    ports:
+      - "5432:5432"
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres -d chatbot"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+    volumes:
+      - dbdata:/var/lib/postgresql/data
+    networks: [appnet]
+
+  # =========================
+  # Backend API (FastAPI)
+  # =========================
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: pfchat_backend
+    env_file: .env
+    depends_on:
+      db:
+        condition: service_healthy
+    working_dir: /app
+    command: >
+      uvicorn backend.app.main:app --host 0.0.0.0 --port 8000 --proxy-headers
+    ports:
+      - "8000:8000"
+    # Mount repo root so 'backend.app...' imports resolve
+    volumes:
+      - .:/app
+    environment:
+      PYTHONPATH: /app
+    networks: [appnet]
+
+  # =========================
+  # Frontend (Streamlit)
+  # =========================
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    container_name: pfchat_frontend
+    env_file: .env
+    depends_on:
+      - backend
+    ports:
+      - "8501:8501"
+    volumes:
+      - ./frontend:/app
+    networks: [appnet]
+
+  # =========================
+  # LLM services
+  # =========================
+
+  # CPU profile — llama.cpp (GGUF)
+  llm_cpu:
+    image: ghcr.io/ggerganov/llama.cpp:server
+    profiles: ["cpu"]
+    restart: unless-stopped
+    env_file: .env
+    ports:
+      - "${LLM_PORT:-8001}:8000"
+    command: >
+      --model /models/llm/${LLM_GGUF_FILENAME}
+      --ctx-size 8192
+      --host 0.0.0.0
+      --port 8000
+      --batch-size ${LLM_CPU_BATCH_SIZE:-256}
+      --threads ${LLM_CPU_THREADS:-8}
+    volumes:
+      - ${LLM_MODELS_HOST_DIR}:/models/llm:ro
+    healthcheck:
+      test: ["CMD", "curl", "-fsS", "http://localhost:8000/health"]
+      interval: 20s
+      timeout: 5s
+      retries: 10
+    networks: [appnet]
+
+  # GPU profile — vLLM (HF Transformers dir)
+  llm:
+    image: vllm/vllm-openai:latest
+    profiles: ["gpu"]
+    restart: unless-stopped
+    env_file: .env
+    ports:
+      - "${LLM_PORT:-8001}:8000"
+    command: >
+      --model /models/llm
+      --host 0.0.0.0
+      --port 8000
+      --max-model-len 8192
+      --dtype auto
+    volumes:
+      - ${LLM_MODELS_HOST_DIR}:/models/llm:ro
+    gpus: all
+    shm_size: "8g"
+    healthcheck:
+      test: ["CMD", "curl", "-fsS", "http://localhost:8000/v1/models"]
+      interval: 20s
+      timeout: 5s
+      retries: 10
+    networks: [appnet]
+
+  # =========================
+  # Embeddings services
+  # =========================
+
+  # CPU profile — Hugging Face TEI (Transformers model dir with config.json)
+  embeddings_cpu:
+    image: ghcr.io/huggingface/text-embeddings-inference:cpu-1.5
+    profiles: ["cpu"]
+    restart: unless-stopped
+    env_file: .env
+    ports:
+      - "${EMBED_PORT:-8080}:80"
+    command: >
+      --model-id /model
+      --pooling mean
+      --hostname 0.0.0.0
+      --port 80
+    volumes:
+      # Mount EXACT directory that contains config.json
+      - ${EMBED_MODEL_DIR}:/model:ro
+    healthcheck:
+      test: ["CMD", "curl", "-fsS", "http://localhost:80/health"]
+      interval: 20s
+      timeout: 5s
+      retries: 10
+    networks: [appnet]
+
+  # GPU profile — TEI CUDA
+  embeddings:
+    image: ghcr.io/huggingface/text-embeddings-inference:cuda-12.1
+    profiles: ["gpu"]
+    restart: unless-stopped
+    env_file: .env
+    ports:
+      - "${EMBED_PORT:-8080}:80"
+    command: >
+      --model-id /model
+      --pooling mean
+      --hostname 0.0.0.0
+      --port 80
+    volumes:
+      - ${EMBED_MODEL_DIR}:/model:ro
+    gpus: all
+    healthcheck:
+      test: ["CMD", "curl", "-fsS", "http://localhost:80/health"]
+      interval: 20s
+      timeout: 5s
+      retries: 10
+    networks: [appnet]
